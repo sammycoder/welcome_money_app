@@ -18,8 +18,8 @@ class _TabsControllerState extends State<TabsController> {
   static const List<WidgetWithTitle> _pages = [
     Expenses(),
     Reports(),
-    Settings(),
     Add(),
+    Settings(),
   ];
 
   void _onItemlapped(int index) {
